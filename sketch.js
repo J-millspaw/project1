@@ -117,6 +117,10 @@ function draw() {
     drawLandscapeObject2(225, 95)
     drawLandscapeObject2(250, 100)
     drawLandscapeObject2(200, 100)
+    drawTree(120, 150,10)
+    drawTree(80, 150,10)
+    drawTree(90, 150,10)
+    drawTree(110, 150,10)
     drawTree(100, 150,10)    
    
      c1.x += c1.speed;
