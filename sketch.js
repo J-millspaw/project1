@@ -112,7 +112,7 @@ function draw() {
     }
 
     drawTree(500, 100, 25)
-    drawCreature(800, 200, 'tan', 'black')
+    // drawCreature(800, 200, 'tan', 'black')
     drawBee(200, 100, 50)
     drawLandscapeObject2(225, 95)
     drawLandscapeObject2(250, 100)
@@ -121,7 +121,8 @@ function draw() {
     drawTree(80, 150,10)
     drawTree(90, 150,10)
     drawTree(110, 150,10)
-    drawTree(100, 150,10)    
+    drawTree(100, 150,10)
+    drawTree(1000, 150,5)    
    
      c1.x += c1.speed;
     drawTruck(c1.x, c1.y, c1.width, c1.color);
